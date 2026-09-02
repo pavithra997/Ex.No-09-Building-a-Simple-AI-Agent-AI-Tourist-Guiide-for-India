@@ -1,8 +1,12 @@
 # Ex.No-09-Building-a-Simple-AI-Agent-AI-Tourist-Guiide-for-India
 ## Aim : To design, implement and test a simple goal-based AI agent in Python that plans a personalised India trip itinerary for a tourist, based on the tourist's interest, trip duration and daily budget.
-Introduction
+# OBJECTIVES
+.To understand the concept of a goal-based Al agent..To implement the Perceive → Reason → Plan→Act cycle..To
+create a knowledge base of Indian tourist destinations.To generate personalised itineraries based on interest, duration
+and budget.. To test the agent with different tourist profiles.
+# Introduction
 An AI agent is anything that can perceive its environment through sensors and act upon that environment through actuators in order to achieve a specific goal. A useful way to describe an agent is the PEAS framework — Performance measure, Environment, Actuators and Sensors. Agents are commonly classified as simple reflex agents (react only to the current input), goal-based agents (choose actions that achieve a defined goal) and utility-based agents (choose the action that maximises a measure of “goodness”). In this experiment, an AI Tourist Agent for India is built as a goal-based agent: given a tourist's goal (an enjoyable trip within their interest and budget), the agent perceives the tourist's preferences, reasons over a knowledge base of Indian destinations, plans a day-wise itinerary, and acts by presenting the recommended plan.
-Procedure
+# Procedure
 ### Step 1: Import Required Libraries
 ●	textwrap – used only to neatly wrap long destination descriptions to a fixed line width while printing the itinerary.
 <img width="584" height="34" alt="image" src="https://github.com/user-attachments/assets/d7bd1246-346f-41f8-aec1-fddca7a8e120" />
